@@ -1,10 +1,10 @@
-.index-body img{
-    /*设置该元素形状效果-宽度100%*/
-    width: 80%;
-    /*设置该元素位置效果-左布局*/
-    float: left;
-    /*设置该元素位置效果-绝对定位布局-原点是本来布局位置的左上角，不随鼠标滑动而变动位置*/
-    position: relative;
-    /*设置该元素位置效果-距离左边10%屏幕宽度*/
-    left: 10%;
+.index-body div{
+    position:absolute;
+    background:#404040;
+    width:500px;
+    height:400px;
+    top:50%;
+    left:50%;
+    margin-top: -200px;         /* 值是height的一半 */
+    margin-left: -250px;        /* 值是width的一半 */
 }
